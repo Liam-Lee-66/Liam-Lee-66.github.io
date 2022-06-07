@@ -1,0 +1,155 @@
+@import url(base.css);
+
+/*------------------------------------------------------*/
+/*  Components: header                                  */
+/*------------------------------------------------------*/
+
+header{
+    min-width: 100%;
+    background: rgb(34,193,195);
+}
+
+header div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.title{
+    height: 56px;
+}
+
+.title h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 56px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+
+header nav{
+    text-align: right;
+    height: 56px;
+}
+
+header nav ul{
+    list-style: none;
+    font-size: 0;
+}
+
+header nav ul li{
+    display: inline;
+    line-height: 56px;
+}
+
+header nav ul li a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+    transition: color .25s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: rgb(253,187,45);
+}
+
+header nav ul li + li {
+    margin-left: 25px;
+}
+
+input{
+    width: 30%;    
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    transition: border .25s ease-in-out;
+
+    /*important*/
+    resize: none;
+    overflow: auto;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+input:focus{
+    border: 2px solid rgb(253,187,45);
+}
+
+input[type="text"]:valid, input[type="email"]:valid, textarea:valid{
+    background: #fff url(../img/download.png) no-repeat 96% center;
+    background-size: 12px 12px;
+}
+
+/*------------------------------------------------------*/
+/*  Components: main                                  */
+/*------------------------------------------------------*/
+
+
+/*------------------------------------------*/
+/* columns                                  */
+/*------------------------------------------*/
+main{
+    margin-bottom: 60px;
+}
+
+.row{
+    margin-top: 70px;
+    display: flex;
+}
+
+.col{
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 2px #e4e5e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.icondiv{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+i{
+    font-size: 30px;
+}
+
+.top i{
+    color: rgb(253,187,45);
+}
+
+.bottom i{
+    color: rgb(34,193,195);
+}
+
+.icondiv p{
+    margin-left: 20px;
+}
+
+.icondiv p + p{
+    margin-left: 10px;
+}
+
+.number{
+    font-size: 30px;
+}
+
+.three{
+    width: calc(40% - 12.5px);
+}
+
+.col + .col {
+    margin-left: 25px;
+}

@@ -1,0 +1,173 @@
+@import url(base.css);
+
+/*------------------------------------------------------*/
+/*  Components: header                                  */
+/*------------------------------------------------------*/
+
+header{
+    min-width: 100%;
+    background: rgb(34,193,195);
+}
+
+header div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.title{
+    height: 56px;
+}
+
+.title h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 56px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+
+header nav{
+    text-align: right;
+    height: 56px;
+}
+
+header nav ul{
+    list-style: none;
+    font-size: 0;
+}
+
+header nav ul li{
+    display: inline;
+    line-height: 56px;
+}
+
+header nav ul li a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+    transition: color .25s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: rgb(253,187,45);
+}
+
+header nav ul li + li {
+    margin-left: 25px;
+}
+
+input{
+    width: 90%;    
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    transition: border .25s ease-in-out;
+
+    /*important*/
+    resize: none;
+    overflow: auto;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+input:focus{
+    border: 2px solid rgb(253,187,45);
+}
+
+/*------------------------------------------------------*/
+/*  Components: main                                    */
+/*------------------------------------------------------*/
+
+body{
+    background-color: #eee;
+}
+
+.main-title{
+    margin-top: 100px;
+    font-size: 24px;
+    color: black;
+}
+
+
+
+/*------------------------------------------------------*/
+/*  Components: table                                   */
+/*------------------------------------------------------*/
+
+table{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    border-collapse:separate;
+    border-spacing:0 10px;
+    background-color: transparent;
+    color: rgb(134, 134, 134);
+}
+
+tr + tr{
+    color: black;
+    background-color: #fff;
+    line-height: 50px;
+    height: 50px;
+    margin-bottom: 100px;
+    box-shadow: 5px 3px #ccc;
+}
+
+tr :first-child{
+    margin-left: 25px;
+}
+
+.lettericon{
+    text-align: center;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+
+.one{
+    background-color: rgb(225, 242, 252);
+    color: rgb(81, 159, 194);
+}
+.two{
+    background-color: rgb(255, 235, 237);
+    color: rgb(207, 152, 157);
+}
+.three{
+    background-color: rgb(232, 245, 235);
+    color: rgb(121, 146, 107);
+}
+.four{
+    background-color: rgb(232, 231, 249);
+    color: rgb(133, 139, 186);
+}
+.five{
+    background-color: rgb(255, 242, 223);
+    color: rgb(181, 163, 58);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34,193,195);
+    margin: 0;
+    padding: 0;
+    transition: color .25s ease-in-out;
+}
+a:hover{
+    color: rgb(253,187,45);
+}
+
+/* didn't have enough time to make a div for the a link and make background circle. */

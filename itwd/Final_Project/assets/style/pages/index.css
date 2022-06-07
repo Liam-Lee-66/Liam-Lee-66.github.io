@@ -1,0 +1,266 @@
+@import "../base.css";
+@import "../header&footer.css";
+
+/*--------------------------------------*/
+/* Banner                               */
+/*--------------------------------------*/
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url('../../img/rough-horn-gd6d5880ae_1920.jpg');
+    /* background-image: url("../img/hexagon.gif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .banner {
+    width: 100%;
+    height: 100vh;
+    background-attachment: scroll;
+    background-image: linear-gradient(45deg, rgba(253, 252, 71, 0.5) 0%, rgba(36, 254, 65, 0.5) 100%), url('../img/hexagon.gif');
+    background-position: center;
+    background-repeat: repeat repeat;
+    background-size: cover, 300px;
+    background-color: #22242a;
+} */
+
+.banner h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: .5px;
+}
+.banner h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: .5px;
+}
+.banner hr{
+    border-top: 3px solid #c9b504;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*--------------------------------------*/
+/* main                                 */
+/*--------------------------------------*/
+
+main{
+    text-align: center;
+}
+
+main h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+
+main h4{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #555;
+}
+
+main p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    color: #777;
+}
+
+main .contentdiv{
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+main .textwrap{
+    margin: 0 auto;
+}
+
+/*--------------------------------------*/
+/* button                               */
+/*--------------------------------------*/
+
+main button{
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #4c9918;
+    border: 2px solid #4c9918;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    /*suggest to use letter spacing .2px*/
+    letter-spacing: .2px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    padding: 13px 30px 13px 30px;
+}
+
+main button:hover{
+    background-color: #fff;
+    color: #4c9918;
+    cursor: pointer;
+}
+
+/*--------------------------------------*/
+/* column                               */
+/*--------------------------------------*/
+
+.columnholder{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    height: 430px;
+    border-radius: 10px;
+}
+
+.column p{
+    font-family: 'Poppins', sans-serif;
+    color: #777;
+    margin-top: 25px;
+}
+
+.column button{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #4c9918;
+    transition: all .25s ease-in-out;
+    margin-bottom: 25px;
+}
+
+.column .imghere{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    background-position: center;
+    background-size: cover;
+}
+
+.LiamLeeSample{
+    background-image: url(../../img/Assignment\ 3.png);
+}
+.AuditTrailSample{
+    background-image: url(../../img/Assignment\ 4.png);
+}
+.Lemons{
+    background-image: url(../../img/Assignment\ 6.png);
+}
+
+.column h3{
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.noleft{
+    margin-left: none;
+}
+
+/*--------------------------------------*/
+/* @media                               */
+/*--------------------------------------*/
+
+@media screen and (min-width: 320px) {
+    .contentdiv{
+        width: 100%;
+    }
+    .columnholder{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    main .textwrap{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contentdiv{
+        width: 90%;
+    }
+    .columnholder{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    main .textwrap{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contentdiv{
+        width: 80%;
+    }
+    .columnholder{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    main .textwrap{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contentdiv{
+        width: 60%;
+    }
+    .columnholder{
+        flex-direction: row;
+    }
+    .column{
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    main .textwrap{
+        width: 50%;
+    }
+}

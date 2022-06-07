@@ -1,0 +1,153 @@
+@import "../base.css";
+@import "../header&footer.css";
+
+/*--------------------------------------*/
+/* Banner                               */
+/*--------------------------------------*/
+
+.banner {
+    width: 100%;
+    height: calc(100vh - 300px);
+    background-attachment: fixed;
+    background-image: url('../../img/ssl.jpg');
+    /* background-image: url("../img/hexagon.gif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: .5px;
+}
+.banner hr{
+    border-top: 3px solid #c9b504;
+    width: 7%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.overlay {
+    height: calc(100vh - 300px);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------------------------------*/
+/* Main                                 */
+/*--------------------------------------*/
+
+main{
+    text-align: left;
+}
+
+main h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+
+main h4{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #555;
+}
+
+main p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    color: #777;
+}
+
+main .contentdiv{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*--------------------------------------*/
+/* Main img                             */
+/*--------------------------------------*/
+
+main .imagediv{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+
+main .imagediv img{
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+}
+
+/*--------------------------------------*/
+/* @media                               */
+/*--------------------------------------*/
+
+@media screen and (min-width: 320px) {
+    main{
+        text-align: center;
+    }
+
+    main .contentdiv{
+        width: 95%;
+        padding: 5px 5px 5px 5px;
+    }
+    main .imagediv img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    main{
+        text-align: center;
+    }
+
+    main .contentdiv{
+        width: 95%;
+        padding: 20px 10px 20px 10px;
+    }
+
+    main .imagediv img{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        text-align: left;
+    }
+
+    main .contentdiv{
+        width: 95%;
+        padding: 60px 50px 120px 50px;
+    }
+
+    main .imagediv img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main{
+        text-align: left;
+    }
+
+    main .contentdiv{
+        width: 95%;
+        padding: 60px 50px 120px 50px;
+    }
+
+    main .imagediv img{
+        width: 70%;
+    }
+}

@@ -1,0 +1,255 @@
+@import "../base.css";
+@import "../header&footer.css";
+
+main h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+
+/*--------------------------------------*/
+/* Banner                               */
+/*--------------------------------------*/
+
+.banner {
+    width: 100%;
+    height: calc(100vh - 300px);
+    background-attachment: fixed;
+    background-image: url('../../img/keyboard.jpg');
+    /* background-image: url("../img/hexagon.gif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: .5px;
+}
+.banner hr{
+    border-top: 3px solid #c9b504;
+    width: 7%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.overlay {
+    height: calc(100vh - 300px);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------------------------------*/
+/* Form                                 */
+/*--------------------------------------*/
+.form{
+    margin-top: 20px;
+    padding: 25px;
+    font-size: 0;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.form .buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+
+main p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    color: #777;
+    text-align: center;
+}
+
+.formtop{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-top: 0;
+    margin-left: 25px;
+    height: 50px;
+    padding: 0 15px;
+    /*simply making sure background colour is white*/
+    background-color: #fff;
+    border: 2px solid #eee;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    transition: border .25s ease-in-out;
+}
+
+.noleft{
+    margin: 0;
+}
+
+textarea{
+    margin-top: 25px;
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    /*simply making sure background colour is white*/
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    color: #333333;
+    transition: border .25s ease-in-out;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #feec49;
+}
+
+
+input[type="text"]:valid, input[type="email"]:valid{
+    background: #fff url(../../img/Valid.png) no-repeat 96% center;
+    background-size: 16px 16px;
+    border: 1px solid #4c9918;
+}
+textarea:valid{
+    background: #fff url(../../img/Valid.png) no-repeat 98% center;
+    background-size: 16px 16px;
+    border: 1px solid #4c9918;
+}
+
+/*--------------------------------------*/
+/* Form Buttons                         */
+/*--------------------------------------*/
+
+input[type="submit"]{
+    margin: 0;
+    margin-top: 40px;
+    width: 110px;
+    height: 46px;
+    text-align: center;
+    background-color: #4c9918;
+    border: 2px solid #4c9918;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    /*suggest to use letter spacing .2px*/
+    letter-spacing: .2px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+}
+
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: #4c9918;
+}
+
+/*--------------------------------------*/
+/* @media                               */
+/*--------------------------------------*/
+
+@media screen and (min-width: 320px) {
+    .formtop{
+        flex-direction: column;
+    }
+
+    input{
+        margin-left: 0;
+        margin-top: 25px;
+        width: 100%
+    }
+
+    .noleft{
+        margin-top: 0;
+    }
+
+    textarea:valid{
+        background: #fff url(../../img/Valid.png) no-repeat 96% center;
+        background-size: 16px 16px;
+        border: 1px solid #4c9918;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .formtop{
+        flex-direction: column;
+    }
+
+    input{
+        margin-left: 0;
+        margin-top: 25px;
+        width: 100%
+    }
+
+    .noleft{
+        margin-top: 0;
+    }
+
+    textarea:valid{
+        background: #fff url(../../img/Valid.png) no-repeat 96% center;
+        background-size: 16px 16px;
+        border: 1px solid #4c9918;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formtop{
+        flex-direction: column;
+    }
+
+    input{
+        margin-left: 0;
+        margin-top: 25px;
+        width: 100%
+    }
+
+    .noleft{
+        margin-top: 0;
+    }
+
+    textarea:valid{
+        background: #fff url(../../img/Valid.png) no-repeat 96% center;
+        background-size: 16px 16px;
+        border: 1px solid #4c9918;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formtop{
+        flex-direction: row;
+    } 
+
+    input{
+        width: calc(50% - 12.5px);
+        margin-top: 0;
+        margin-left: 25px;    
+    }
+    
+    textarea:valid{
+        background: #fff url(../../img/Valid.png) no-repeat 98% center;
+        background-size: 16px 16px;
+        border: 1px solid #4c9918;
+    }
+}

@@ -8,17 +8,17 @@
 
 ## MITT 
 ### Intro to Web Development
-- [Assignment 3](https://liam-lee-66.github.io/Intro_to_Web_Dev/Lee_Liam_Assignment_3/index.html)
-- [Assignment 4](https://liam-lee-66.github.io/Intro_to_Web_Dev/Lee_Liam_Assignment_4/index.html)
-- [Assignment 5](https://liam-lee-66.github.io/Intro_to_Web_Dev/Lee_Liam_Assignment_5/index.html)
-- [Assignment 6](https://liam-lee-66.github.io/Intro_to_Web_Dev/Lee_Liam_Assignment_6/index.html)
-- [Final Project](https://liam-lee-66.github.io/Intro_to_Web_Dev/Final_Project/index.html)
+- [Assignment 3]()
+- [Assignment 4]()
+- [Assignment 5]()
+- [Assignment 6]()
+- [Final Project]()
 
 ### Technical Writing 
 - [Final Project](https://liam-lee-66.github.io/SD160-Techinical-Writing-Skills---Final-Project-Portofolio/)
 
 ### Intro to JavaScript / JavaScript Basics
-- [Project_1](https://liam-lee-66.github.io/JSB_Project_1/)
+- [Project_1](https://liam-lee-66.github/jsb/Project-1)
 - [Project_2](https://liam-lee-66.github.io/JSB_Project_2/)
 - [Final_Project](https://liam-lee-66.github.io/JSB_Final_Project/)
     - ID: ciscoadmin
@@ -33,10 +33,10 @@
 - [Assignment 3]()
 - [Clickity-click-gmae](https://liam-lee-66.github.io/Clickity-click-gmae/)
 
-### ITPA
+### Intro to Third Part API
 - [Assignment 1]()
 - [Assignment 3]()
-- [Final Project](./)
+- [Final Project]()
 
 ### Tools and Automation
 - [Web Portofolio]()

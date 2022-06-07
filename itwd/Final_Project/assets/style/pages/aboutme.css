@@ -1,0 +1,172 @@
+@import "../base.css";
+@import "../header&footer.css";
+
+/*--------------------------------------*/
+/* Banner                               */
+/*--------------------------------------*/
+
+.banner {
+    width: 100%;
+    height: calc(100vh - 300px);
+    background-attachment: fixed;
+    background-image: url('../../img/adam-solomon-WHUDOzd5IYU-unsplash.jpg');
+    /* background-image: url("../img/hexagon.gif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: .5px;
+}
+.banner hr{
+    border-top: 3px solid #c9b504;
+    width: 7%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.overlay {
+    height: calc(100vh - 300px);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------------------------------*/
+/* main                                 */
+/*--------------------------------------*/
+
+main{
+    text-align: left;
+}
+
+main h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+
+main h4{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #555;
+}
+
+main p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    color: #777;
+}
+
+main a{
+    display: flex;
+}
+
+main button{
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #4c9918;
+    border: 2px solid #4c9918;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    /*suggest to use letter spacing .2px*/
+    letter-spacing: .2px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+    padding: 13px 30px 13px 30px;
+}
+
+main button:hover{
+    background-color: #fff;
+    color: #4c9918;
+    cursor: pointer;
+}
+
+
+main strong{
+    color: #555;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+main .imagediv{
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, .15);
+} 
+
+main .imagediv img{
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+main ul{
+    list-style-position: inside;
+    padding: 0;
+}
+
+main ul li{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    color: #777;
+}
+
+/*--------------------------------------*/
+/* @media                               */
+/*--------------------------------------*/
+
+@media screen and (min-width: 320px) {
+    .mediapadding{
+        padding: 20px;
+    }
+
+    main .imagediv{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .mediapadding{
+        padding: 20px;
+    }
+
+    main .imagediv{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mediapadding{
+        padding: 0;
+    }
+
+    main .imagediv{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mediapadding{
+        padding: 0;
+    }
+
+    main .imagediv{
+        width: 60%;
+    }
+}

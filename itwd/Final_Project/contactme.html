@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/lime.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/pages/contactme.css" media="all">
+
+
+    <title>Welcome!</title>
+
+    <!-- Font & Icons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=Shadows+Into+Light+Two&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="title">
+                <img src="assets/img/lime.png">
+                <p>Liam Lee</p>
+            </div>
+            <nav class="pcnav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="contactme.html">Contact me</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                </ul>
+            </nav>
+            <div class="mobilenav">
+                <p><i class="fas fa-bars" title="Menu"></i></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="overlay">
+            <h1>Send me a message!</h1>
+            <hr>
+        </div>
+    </div>
+
+    <main>
+        <div class="container spaceout">
+            <h2>Contact me</h2>
+            <p>Write a message to me in the space provided below!</p>
+
+            <div class="form">
+                <form method="POST" action="#" name="registration">
+                    <div class="formtop">
+                        <input class="noleft" type="text" name="name" placeholder="Your name (John Doe)" required
+                            pattern="^[a-zA-Z\s]+$">
+                        <input type="email" name="email" placeholder="Email (example@email.com)" required
+                            pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                    </div>
+                    <textarea placeholder="Send me a message here!" required pattern="^[a-zA-Z]+$"></textarea>
+
+                    <div class="buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer">
+            <div class="icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p class="UpAndDown">@2021 Liam Lee at MITT!</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>

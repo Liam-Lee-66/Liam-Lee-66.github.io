@@ -1,0 +1,150 @@
+@import url(base.css);
+
+body {
+    background-color: #FCFAFA;
+}
+
+/* ------------------------------ */
+/*            header              */
+/* ------------------------------ */
+header {
+    background-color: #3F88C5;
+    width: 100%;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    font-size: 35px;
+    font-family: 'Ubuntu', cursive;
+    color: #FCFAFA;
+
+    /* Text outline */
+    text-shadow: rgb(57, 62, 65) 2px 0px 0px, rgb(57, 62, 65) 1.75517px 0.958851px 0px, rgb(57, 62, 65) 1.0806px 1.68294px 0px, rgb(57, 62, 65) 0.141474px 1.99499px 0px, rgb(57, 62, 65) -0.832294px 1.81859px 0px, rgb(57, 62, 65) -1.60229px 1.19694px 0px, rgb(57, 62, 65) -1.97998px 0.28224px 0px, rgb(57, 62, 65) -1.87291px -0.701566px 0px, rgb(57, 62, 65) -1.30729px -1.5136px 0px, rgb(57, 62, 65) -0.421592px -1.95506px 0px, rgb(57, 62, 65) 0.567324px -1.91785px 0px, rgb(57, 62, 65) 1.41734px -1.41108px 0px, rgb(57, 62, 65) 1.92034px -0.558831px 0px;}
+
+#headerLinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+/* ------------------------------ */
+/*           buttons              */
+/* ------------------------------ */
+#headerLinks > button, #headerLinks > a{
+    width: 120px;
+    height: 40px;
+    border-radius: 150px;
+    margin-top: 0px;
+    border: 2.5px solid #393E41;
+    background-color: #FCFAFA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #454851;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+
+    transition: all .25s ease-in-out;
+}
+#headerLinks > button:hover, #headerLinks > a:hover {
+    background-color: #3F88C5;
+    color: #FCFAFA;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
+
+#headerLinks > #login {
+    margin-left: 10px;
+}
+
+/* ------------------------------ */
+/*            Main                */
+/* ------------------------------ */
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+#description {
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+/* ------------------------------ */
+/*          Main form             */
+/* ------------------------------ */
+.form {
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    background-color: none;
+}
+
+.form > h2, input[type="text"], input[type="password"], input[type="email"] {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    resize: none;
+    width: 70%;
+    height: 60px;
+    padding: 15px;
+    /*simply making sure background colour is white*/
+    background-color: #FCFAFA;
+    border: 2px solid #FCFAFA;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow: 0px 4px 14px -4px rgba(0, 0, 0, .25);
+    color: #393E41;
+    transition: all .25s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+    border: 2px solid #3F88C5;
+    box-shadow: none;
+}
+
+.form > #submit {
+    width: 120px;
+    height: 45px;
+    border-radius: 150px;
+    margin-top: 0px;
+    background-color: #FCFAFA;
+    border: 2.5px solid #3F88C5;
+
+    color: #3F88C5;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+
+    transition: all .25s ease-in-out;
+}
+.form > #submit:hover {
+    background-color: #3F88C5;
+    color: #FCFAFA;
+    cursor: pointer;
+    box-shadow: 0px 4px 14px -4px rgba(0, 0, 0, .25);
+}

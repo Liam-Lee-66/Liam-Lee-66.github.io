@@ -1,0 +1,76 @@
+/*--------------------------------------*/
+/* body                                 */
+/*--------------------------------------*/
+body{
+    background-color: #fff;
+}
+
+/*--------------------------------------*/
+/* header                               */
+/*--------------------------------------*/
+
+header {
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+header .mobile-nav, header nav {
+    height: 56px;
+}
+
+.mobile-nav i {
+    font-size: 30px;
+    color: #eee;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 0;
+}
+
+header nav ul li {
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+    margin: 15px;
+}
+
+header nav ul li a {
+    font-size: 22px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #eee;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: none;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+header nav ul:last-child {
+    margin-right: 25px;
+}
+
+/*--------------------------------------*/
+/* footer                               */
+/*--------------------------------------*/
+
+.footer {
+    text-align: right;
+    height: 100px;
+    min-width: 100%;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.footer p{
+    line-height: 100px;
+    color: #fff;
+    margin-right: 100px;
+}
