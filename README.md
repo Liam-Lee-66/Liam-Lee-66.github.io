@@ -42,4 +42,8 @@
 - [Web Portofolio](https://liam-lee-66.github.io/WebDevPortofolio/index.html)
 - [Github README Profile](https://github.com/Liam-Lee-66/Liam-Lee-66)
 - [Dialog Tutorial](https://github.com/Liam-Lee-66/dialogTutorial)
-
+- [Dev Team Project](https://zack-z23.github.io/Dev-Team/)
+    - Group Project Members:
+        - Jacob Block
+        - Liam Lee
+        - Zacharias Zachariadis
