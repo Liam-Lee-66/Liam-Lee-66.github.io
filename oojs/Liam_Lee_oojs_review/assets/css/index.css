@@ -1,0 +1,102 @@
+@import url('base.css');
+
+body {
+    background-color: rgb(35, 35, 35);
+    color: #f1f1f1;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    width: 435px;
+}
+
+.options select + select {
+    margin-left: 20px;
+}
+
+select {
+    appearance: none;
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+    color: #f1f1f1;
+    width: calc(435px / 2 - 60px);
+    border-radius: 4px;
+}
+
+button {
+    margin-left: 25px;
+    padding: 10px;
+    color: #f1f1f1;
+    border-radius: 4px;
+    background-color: rgb(65, 65, 150);
+    width: 100px;
+}
+select:hover, button:hover, .getSpawned:hover {
+    cursor: pointer;
+}
+
+#dispenseOutput {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-gap: 10px;
+    padding: 10px;
+
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    margin-top: 30px;
+
+    width: calc(75px * 5 + 10px * 6);
+    height: calc(75px * 4 + 10px * 5);
+
+    transform: rotateX(180deg);
+}
+
+#feedBacc {
+    margin-top: 10px;
+}
+
+/* Shape */
+.getSpawned{
+    width: 75px;
+    height: 75px;
+
+    animation-name: trans;
+    animation-duration: .45s;
+}
+.square{
+    border-radius: 0%;
+}
+.circle {
+    border-radius: 50%;
+}
+
+/* Colours */
+/* .blue {
+    background-color: #0f9;
+}
+.green {
+    background-color: #9f0;
+}
+.orange {
+    background-color: #f90;
+}
+.pink {
+    background-color: #f09;
+}
+.purple {
+    background-color: #90f;
+} */
+
+
+@keyframes trans {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }

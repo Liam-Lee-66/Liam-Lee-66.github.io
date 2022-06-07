@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Dispenser</title>
+
+    <script src="assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="assets/css/index.css" media="all">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="options">
+            <select id="shape">
+                <option value="" selected disabled hidden>Select a Shape</option>
+                <option value="square">Square</option>
+                <option value="circle">Circle</option>
+            </select>
+
+            <select id="colour">
+                <option value="" selected disabled hidden>Select a Colour</option>
+                <option value="#09f">Blue</option>
+                <option value="#9f0">Green</option>
+                <option value="#f90">Orange</option>
+                <option value="#f09">Pink</option>
+                <option value="#90f">Purple</option>
+            </select>
+            
+            <button id="dispenseBtn">Dispense</button>
+        </div>
+
+
+        <div id="dispenseOutput">
+        </div>
+
+        <p id="feedBacc"></p>
+    </div>
+</body>
+
+</html>

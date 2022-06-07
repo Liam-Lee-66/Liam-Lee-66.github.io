@@ -1,0 +1,83 @@
+@import url(base.css);
+
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25vh;
+    /* margin-bottom: calc(100vh - 25vh - 300px); */
+}
+
+#clock {
+    font-size: 100px;
+    color: #eee;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: auto;
+}
+
+#input {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-right: 15px;
+    border: 1px solid #000;
+}
+
+#setAlarmButton {
+    padding: 15px;
+    border: 1px solid #dde;
+    background-color: rgb(69, 60, 87);
+    border-radius: 5px;
+    color: #dde;
+    transition: all .25s ease-in-out;
+    font-size: 16px;
+}
+#setAlarmButton:hover {
+    background-color: #213;
+    border: 1px solid #dde;
+    cursor: pointer;
+}
+
+.alarmTimeDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+i {
+    margin-right: 15px;
+    color: #eee;
+    font-size: 23px;
+}
+
+.clockHolder {
+    display: grid;
+    place-items: center;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid #dde;
+    background-color: rgba(255,255,255,.15);
+    backdrop-filter: blur(15px);
+    /* box-shadow: 0px 0px 45px #123; */
+}
+
+#alarmSet {
+    font-size: 25px;
+    color: #eee;
+}
+
+body {
+    background-image: url('../img/forest-ge6d4fe9ba_1920.jpg');
+    background-size: fill;                      
+    background-repeat: no-repeat;
+    background-position: center center;  
+}

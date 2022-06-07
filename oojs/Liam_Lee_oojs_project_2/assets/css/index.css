@@ -1,0 +1,263 @@
+@import url(base.css);
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+/*----------------------------------------*/
+/*-------------- Header ------------------*/
+/*----------------------------------------*/
+header {
+    background-color: #f1f1f1;
+    min-width: 100%;
+    height: 70px;   
+    padding: 10px;
+
+    font-size: 16px;
+    box-shadow: 0px 5px 15px rgb(228, 228, 228);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*----------------------------------------*/
+/*-------------Header Content ------------*/
+/*----------------------------------------*/
+.title {
+    font-size: 13px;
+    color: #4267B2;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li + li {
+    margin-left: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.userPfp {
+    width: 50px;
+    height: 50px;
+
+    background-image: url('../other/pfp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 50%;
+}
+
+.userPfp:hover {
+    cursor: pointer;
+}
+
+/*----------------------------------------*/
+/*---------------- Profile Content -------*/
+/*----------------------------------------*/
+#popup {
+    background: none;
+    background-color: rgba(0, 0, 0, .30);
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: 20;
+
+    place-items: center;
+}
+
+.profileContent {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popupProfile {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 50%;
+
+    margin-top: 50px;
+    width: 85px;
+    height: 85px;
+    margin-bottom: 10px;
+}
+
+#userName {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#userInfo {
+    text-align: center;
+}
+
+#closePopup {
+    font-size: 30px;
+    color: rgb(200, 200, 200);
+    margin-left: calc(100% - 20px);
+    transition: all .1s ease-in-out;
+}
+#closePopup:hover {
+    cursor: pointer;
+    color: #4267B2;
+}
+
+/*----------------------------------------*/
+/*---------------- Main ------------------*/
+/*----------------------------------------*/
+main {
+    margin-top: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+/*----------------------------------------*/
+/*---------------- Post ------------------*/
+/*----------------------------------------*/
+.postingDiv {
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 10px;
+    border-radius: 4px;
+}
+
+textarea {
+    background-color: transparent;
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
+
+.postingButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#imageUpload {
+    display: none;
+}
+
+#custom-imageUpload {
+    background-color: #FFAC1C;
+    color: #f1f1f1;
+    border-radius: 4px;
+
+    padding: 10px;
+    height: 43px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 1px solid #FFAC1C;
+    transition: all .2s ease-in-out;
+}
+#custom-imageUpload i {
+    margin-right: 5px;
+}
+#custom-imageUpload:hover {
+    cursor: pointer;
+    background-color: #b67b15;
+}
+
+#postBtn{
+    background-color: #4267B2;
+    width: 63px;
+    height: 43px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #f1f1f1;
+    border: 1px solid #4267B2;
+
+    transition: all .2s ease-in-out;
+}
+#postBtn:hover {
+    cursor: pointer;
+    background-color: #24385f;
+}
+
+/*----------------------------------------*/
+/*------------ Uploads -------------------*/
+/*----------------------------------------*/
+#uploads {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 25px;
+}
+.post {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    margin-top: 25px;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.postUser {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.postUser p {
+    line-height: 50px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}

@@ -1,0 +1,68 @@
+@import url(base.css);
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin-top: 25vh;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.outputSpace {
+    margin-top: 15px;
+    width: 500px;
+    height: 200px;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #eee;
+    
+}
+
+input {
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-right: 15px;
+    width: calc(500px - 30px);
+    transition: all .25s ease-in-out;
+}
+input:focus {
+    border: 2px solid #0081a7;
+}
+
+#checkButton {
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #0081a7;
+    color: #fff;
+    border: 2px solid #0081a7;
+
+    transition: all .25s ease-in-out;
+}
+#checkButton:hover {
+    cursor: pointer;
+    color: #0081a7;
+    background-color: #fff;
+}
+
+.flex {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

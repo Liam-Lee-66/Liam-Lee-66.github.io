@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakebook</title>
+
+    <!-- Files link -->
+    <script src="assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="assets/css/index.css" media="all">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"></head>
+
+<body>
+    <header>
+        <div class="container header">
+            <div class="title">
+                <h1>Fakebook</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>Friends</li>
+                    <li>Pages</li>
+                    <li>Groups</li>
+                    <li>Settings</li>
+                </ul>
+            </nav>
+
+            <div class="userPfp" id="userProfilePicture"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container main">
+            <div class="postingDiv">
+                <textarea id="textarea" placeholder="What's new?"></textarea>
+                <div class="postingButtons">
+                    <input type="file" accept="image/*" name="image" id="imageUpload">
+                    <label for="imageUpload" id="custom-imageUpload"><i class="fa fa-image"></i>Image</label>
+                    
+                    <button id="postBtn">Post</button>
+                </div>
+            </div>
+
+            <div id="uploads">
+
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+<div id="popup">
+    <div class="profileContent">
+        <p id="closePopup">X</p>
+        <div class="popupProfile" id="profileImg"></div>
+        <p id="userName"></p>
+        <p id="userInfo"></p>
+    </div>
+</div>
+
+</html>

@@ -1,0 +1,106 @@
+@import url('base.css');
+
+header {
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    background-color: #122;
+    color: #f1f1f2;
+}
+
+.hdr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.title p {
+    margin-left: 5px;
+    font-size: 24px;
+}
+.title img {
+    width: 40px;
+    height: 40px;
+}
+
+.hdr ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    list-style-type: none;
+}
+
+.hdr ul li {
+    margin-right: 15px;
+}
+
+.hdr ul:last-child {
+    margin-right: 0;
+}
+
+main {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#ERRoutput {
+    color: red;
+    font-size: 16px;
+}
+
+.mapDiv {
+    margin-top: 10px;
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+#point {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(63, 130, 253);
+    border-radius: 50%;
+
+    display: none;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transition: height .25s ease, width .25s ease;
+    transform: translate(-50%, -50%);    
+}
+
+#point:before, #point:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top:0; right: 0; bottom: 0; left: 0;
+    border-radius: 50%;
+    border: 1px solid rgb(63, 130, 253);
+}
+
+#point:before {
+    animation: ripple 2s linear infinite;
+}
+#point:after {
+    animation: ripple 2s linear 1s infinite;
+}
+
+@keyframes ripple {
+    0% {transform: scale(1);}
+    75% {transform: scale(1.75); opacity: 1;}
+    100% {transform: scale(2); opacity: 0;}
+  }
