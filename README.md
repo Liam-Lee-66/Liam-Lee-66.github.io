@@ -4,7 +4,7 @@
 
 ## PTEC
 - [First Final Project](https://liam-lee-66.github.io/CyberLife-Website-After-edit-Mark-booster-/index.html)
-- [Second Final Project](https://liam-lee-66.github.io/MemoryExpress-Website/){:taget="_blank"}
+- [Second Final Project](https://liam-lee-66.github.io/MemoryExpress-Website/)
 
 ## MITT 
 ### Intro to Web Development
