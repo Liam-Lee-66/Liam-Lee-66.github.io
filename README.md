@@ -1,4 +1,4 @@
-![Its Big Brain Time](assets/bigbraintime "Its Big Brain Time")
+![Its Big Brain Time](assets/bigbraintime.jpg "Its Big Brain Time")
 
 # Past Projects
 
@@ -18,9 +18,9 @@
 - [Final Project](https://liam-lee-66.github.io/SD160-Techinical-Writing-Skills---Final-Project-Portofolio/)
 
 ### Intro to JavaScript / JavaScript Basics
-- [Project_1](https://liam-lee-66.github/jsb/Project-1)
-- [Project_2](https://liam-lee-66.github.io/JSB_Project_2/)
-- [Final_Project](https://liam-lee-66.github.io/JSB_Final_Project/)
+- [Project_1](https://liam-lee-66.github.io/jsb/Project-1/index.html)
+- [Project_2](https://liam-lee-66.github.io/jsb/Project-2/index.html)
+- [Final_Project](https://liam-lee-66.github.io/jsb/Final-project/sign-up.html)
     - ID: ciscoadmin
     - PW: cisco123
 
