@@ -33,13 +33,13 @@
 - [Assignment 3](https://liam-lee-66.github.io/oojs/Liam_Lee_oojs_assignment_3/index.html)
 - [Clickity-click-gmae](https://liam-lee-66.github.io/Clickity-click-gmae/)
 
-### Intro to Third Part API
+### Intro to 3rd Party API
 - [Assignment 1](https://liam-lee-66.github.io/itpa/Liam_Lee_itpa_assignment_1/index.html)
 - [Assignment 3](https://liam-lee-66.github.io/itpa/Liam_Lee_itpa_assignment_3/index.html)
 - [Final Project](https://liam-lee-66.github.io/itpa/Final_Project/index.html)
 
 ### Tools and Automation
-- [Web Portofolio]()
+- [Web Portofolio](https://liam-lee-66.github.io/WebDevPortofolio/index.html)
 - [Github README Profile](https://github.com/Liam-Lee-66/Liam-Lee-66)
 - [Dialog Tutorial](https://github.com/Liam-Lee-66/dialogTutorial)
 
