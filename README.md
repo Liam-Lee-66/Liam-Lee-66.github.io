@@ -3,6 +3,8 @@
 # Past Projects
 
 ## PTEC
+- [Messing around with HTML](https://liam-lee-66.github.io/html-components/)
+- [Messing around with HTML 2](https://liam-lee-66.github.io/Website-making/)
 - [First Final Project](https://liam-lee-66.github.io/CyberLife-Website-After-edit-Mark-booster-/index.html)
 - [Second Final Project](https://liam-lee-66.github.io/MemoryExpress-Website/)
 
@@ -15,7 +17,7 @@
 - [Final Project](https://liam-lee-66.github.io/itwd/Final_Project/index.html)
 
 ### Technical Writing 
-- [Final Project](https://liam-lee-66.github.io/SD160-Techinical-Writing-Skills---Final-Project-Portofolio/)
+- [Final Project](https://github.com/Liam-Lee-66/SD160-Techinical-Writing-Skills---Final-Project-Portofolio)
 
 ### Intro to JavaScript / JavaScript Basics
 - [Project_1](https://liam-lee-66.github.io/jsb/Project-1/index.html)
