@@ -12,13 +12,13 @@ Before you play the game, you must have Visual Studio for the Program to run on.
 - Extract the Downloaded Folder
 - Click on Extracted Folder ***Liam-Lee-66 liam-lee-66.github.io main oofc20Fundementals20Project*** 
 
-	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc0.png)
+	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/blob/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc0.png)
 - Click on Folder ***oofc#***
 
-	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc2.png)
+	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/blob/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc2.png)
 - Click on Folder ***OOP Fundementals Final Project***
 
-	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc3.png)
+	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/blob/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc3.png)
 - Open ***OOP Fundementals Final Project.sln***
 
 	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/blob/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc4.png)
