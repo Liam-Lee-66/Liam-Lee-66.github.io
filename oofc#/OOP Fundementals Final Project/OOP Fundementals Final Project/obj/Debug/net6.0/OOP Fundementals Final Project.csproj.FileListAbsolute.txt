@@ -1,0 +1,15 @@
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\bin\Debug\net6.0\OOP Fundementals Final Project.exe
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\bin\Debug\net6.0\OOP Fundementals Final Project.deps.json
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\bin\Debug\net6.0\OOP Fundementals Final Project.runtimeconfig.json
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\bin\Debug\net6.0\OOP Fundementals Final Project.dll
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\bin\Debug\net6.0\OOP Fundementals Final Project.pdb
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.csproj.AssemblyReference.cache
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.AssemblyInfoInputs.cache
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.AssemblyInfo.cs
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.csproj.CoreCompileInputs.cache
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.dll
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\refint\OOP Fundementals Final Project.dll
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.pdb
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\OOP Fundementals Final Project.genruntimeconfig.cache
+E:\VS\OOP Fundementals Final Project\OOP Fundementals Final Project\obj\Debug\net6.0\ref\OOP Fundementals Final Project.dll
