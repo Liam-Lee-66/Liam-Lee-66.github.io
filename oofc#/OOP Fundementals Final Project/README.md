@@ -15,10 +15,10 @@ Before you play the game, you must have Visual Studio for the Program to run on.
 - Click on Folder ***oofc#***
 	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc2.png)
 - Click on Folder ***OOP Fundementals Final Project***
-	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc3.png?raw=true)
+	![screenshot for instruction](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project/Instruction%20Imgs/sc3.png)
 - Open ***OOP Fundementals Final Project.sln***
 	![screenshot for instruction](Instruction_Imgs/sc4.png?raw=true)
 - Run the program by pressing the ***Green Play Button*** on the top of the screen
-	![screenshot for instruction](sc5.png?raw=true)
+	![screenshot for instruction](https://github.com/[Liam-Lee-66]/[liam-lee-66.github.io]/blob/[main]/sc5.png?raw=true)
 
 Enjoy.
