@@ -49,23 +49,31 @@ First time implementing JS into HTML and CSS
     - Tried messing around with purple colour schemes
         - That was a mistake
 - [Assignment 2 (Alarm)](https://liam-lee-66.github.io/oojs/Liam_Lee_oojs_assignment_2/index.html)
-- [Assignment 3 ](https://liam-lee-66.github.io/oojs/Liam_Lee_oojs_assignment_3/index.html)
+    - Focused on glossy effect
+- [Assignment 3 (Keep Contacts)](https://liam-lee-66.github.io/oojs/Liam_Lee_oojs_assignment_3/index.html)
+    - More dark themed colour schemes
 - [Clickity-click-gmae](https://liam-lee-66.github.io/Clickity-click-gmae/)
+    - Tried new colour scheme
+        - That was also a mistake
 
 ### Intro to 3rd Party API (2022)
-- [Assignment 1](https://liam-lee-66.github.io/itpa/Liam_Lee_itpa_assignment_1/index.html)
-- [Assignment 3](https://liam-lee-66.github.io/itpa/Liam_Lee_itpa_assignment_3/index.html)
-- [Final Project](https://liam-lee-66.github.io/itpa/Final_Project/index.html)
+- [Assignment 1 (The boring website)](https://liam-lee-66.github.io/itpa/Liam_Lee_itpa_assignment_1/index.html)
+    - Messing around with cookies
+- [Assignment 3 (Tracking You)](https://liam-lee-66.github.io/itpa/Liam_Lee_itpa_assignment_3/index.html)
+- [Final Project (Fakebook 2.0)](https://liam-lee-66.github.io/itpa/Final_Project/index.html)
 
 ### Tools and Automation (2022)
 - [Web Portofolio](https://liam-lee-66.github.io/WebDevPortofolio/index.html)
+    - Tried JS animations
 - [Github README Profile](https://github.com/Liam-Lee-66/Liam-Lee-66)
 - [Dialog Tutorial](https://github.com/Liam-Lee-66/dialogTutorial)
-- [Dev Team Project](https://zack-z23.github.io/Dev-Team/)
+- [Dev Team Project (Car Blog)](https://zack-z23.github.io/Dev-Team/)
+    - First Group Project
+        - So many errors
     - Group Project Members:
         - Jacob Block
         - Liam Lee
         - Zacharias Zachariadis
 
 ### Object-Oriented Fundamentals C# (2023)
-- [Final Project](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project)
+- [Final Project (C# Game)](https://github.com/Liam-Lee-66/liam-lee-66.github.io/tree/main/oofc%23/OOP%20Fundementals%20Final%20Project)
